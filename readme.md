@@ -11,36 +11,12 @@ Sorry, no documentation before 0.1.x and some features might change.
 
 But do see:
 
-* [`Gruntfile.coffee`](https://github.com/anodynos/uBerscore/blob/master/Gruntfile.coffee) written with the wicked [uRequire](https://github.com/anodynos/uRequire) configuration, that builds uBerscore's modules in a number of ways, with the most DRY config ever.
+* [`Gruntfile.coffee`](https://github.com/Unity-Billal-mesloub/uBerscore/blob/main/Gruntfile.coffee) written with the wicked [uRequire](https://github.com/Unity-Billal-mesloub/uRequire) configuration, that builds uBerscore's modules in a number of ways, with the most DRY config ever.
 
-Note: [uBerscore-dev.js](https://github.com/anodynos/uBerscore/blob/master/build/dist/uberscore-dev.js) and its minified brother are running on the WEB (both with AMD and as plain `<script/>`) and in nodejs through the single-file 'combined' conversion [uRequire](https://github.com/anodynos/uRequire) with no other dependencies (but 'lodash').
+Note: [uBerscore-dev.js](https://github.com/Unity-Billal-mesloub/uBerscore/blob/main/build/dist/uberscore-dev.js) and its minified brother are running on the WEB (both with AMD and as plain `<script/>`) and in nodejs through the single-file 'combined' conversion [uRequire](https://github.com/Unity-Billal-mesloub/uRequire) with no other dependencies (but 'lodash').
 
-* [`blending/Blender`](https://github.com/anodynos/uBerscore/blob/master/source/code/blending/Blender.coffee) that powers [uRequire](https://github.com/anodynos/uRequire)'s versatile [configuration deriving](http://urequire.org/masterdefaultsconfig.coffee#deriving) to get some ideas.
+* [`blending/Blender`](https://github.com/Unity-Billal-mesloub/uBerscore/blob/main/source/code/blending/Blender.coffee) that powers [uRequire](https://github.com/Unity-Billal-mesloub/uRequire)'s versatile [configuration deriving](http://urequire.org/masterdefaultsconfig.coffee#deriving) to get some ideas.
 
-* The wicked [`isEquals/isIquals/isExact/isLike`](https://github.com/anodynos/uBerscore/blob/master/source/code/objects/isEqual.coffee), that adds options to `_.isEqual`
+* The wicked [`isEquals/isIquals/isExact/isLike`](https://github.com/Unity-Billal-mesloub/uBerscore/blob/main/source/code/objects/isEqual.coffee), that adds options to `_.isEqual`
 
-# License
-The MIT License
 
-Copyright (c) 2012 Angelos Pikoulas (agelos.pikoulas@gmail.com)
-
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated documentation
-files (the "Software"), to deal in the Software without
-restriction, including without limitation the rights to use,
-copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the
-Software is furnished to do so, subject to the following
-conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
-OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
